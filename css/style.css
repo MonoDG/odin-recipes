@@ -1,0 +1,57 @@
+html {
+    background-color: rgba(0, 0, 0, 75%);
+}
+
+body {
+    background-color: darkgoldenrod;
+    color: black;
+    width: 650px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid;
+    border-left: 15px dashed;
+}
+
+a {
+    text-decoration: none;
+    color: gold;
+}
+
+ul, ol {
+    padding: 0 30px;
+}
+
+ul {
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    border: 2px solid;
+    border-radius: 5%;
+    padding: 5px;
+    margin: 2px 0;
+    background-color: saddlebrown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 56px;
+    text-align: center;
+    margin: 0;
+}
+
+ol li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 2.0rem;
+    border-bottom: 1px dashed;
+}
+
+.recipe-image {
+    height: auto;
+    width: 250px;
+    border: 2px dashed;
+    display: block;
+    margin: 5px auto;
+}
